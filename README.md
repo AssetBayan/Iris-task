@@ -42,18 +42,18 @@ Autumn 2025 — MLOps Mini Project
 pip install -r requirements.txt
 Train Model (optional)
 bash
-코드 복사
+
 python train_model.py
 Run Backend (FastAPI)
 bash
-코드 복사
+
 uvicorn api:app --reload
 Open in browser:
 http://127.0.0.1:8000/docs
 
 Run Frontend (Gradio)
 bash
-코드 복사
+
 python app_gradio.py
 Open in browser:
 http://127.0.0.1:7860
@@ -63,11 +63,11 @@ POST /predict
 
 Request Example
 json
-코드 복사
+
 {"sl": 5.1, "sw": 3.5, "pl": 1.4, "pw": 0.2}
 Response Example
 json
-코드 복사
+
 {"prediction": 0, "proba": [0.98, 0.01, 0.01]}
 diff
-코드 복사
+
